@@ -1,0 +1,11 @@
+﻿*.class
+
+.idea
+out/
+*.iml
+desktop.ini
+
+.settings/
+.classpath
+.project
+target/
