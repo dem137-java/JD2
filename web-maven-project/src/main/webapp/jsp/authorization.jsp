@@ -12,7 +12,7 @@
 	<h3>Pls enter login and password:</h3>
 	
 	<form action="Authorization" method="post">
-			<input type="hidden" name="command" value="forward" /> Login: <br />
+			<input type="hidden" name="command1" value="authorization" /> Login: <br />
 			<input type="text" name="login" value="" /><br /> Password: <br />
 			<input type="password" name="password" value="" /><br /> 
 			<input type="submit" value="Submit" /><br />
