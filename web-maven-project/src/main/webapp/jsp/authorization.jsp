@@ -11,7 +11,7 @@
 	<h1>Welcome to authorization page!</h1>
 	<h3>Pls enter login and password:</h3>
 	
-	<form action="Controller" method="post">
+	<form action="Authorization" method="post">
 			<input type="hidden" name="command" value="forward" /> Login: <br />
 			<input type="text" name="login" value="" /><br /> Password: <br />
 			<input type="password" name="password" value="" /><br /> 

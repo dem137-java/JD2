@@ -12,7 +12,7 @@
 
 <h3>Pls enter required info below:</h3>
 
-<form action="Controller" method="post">
+<form action="Registration" method="post"> // TODO
 		<input type="hidden" name="command" value="forward" /> Login: <br />
 		<input type="text" name="login" value="" /><br /> Password: <br />
 		<input type="password" name="password" value="" /><br /> 
