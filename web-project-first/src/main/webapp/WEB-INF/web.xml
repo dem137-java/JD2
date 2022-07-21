@@ -17,12 +17,12 @@
  
  <servlet>
     <servlet-name>FrontController</servlet-name>
-    <servlet-class>FrontController</servlet-class>
+    <servlet-class>controller.FrontController</servlet-class>
   </servlet>
   
   <servlet-mapping>
     <servlet-name>FrontController</servlet-name>
-    <url-pattern>/FrontController</url-pattern>
+    <url-pattern>/controller</url-pattern>
   </servlet-mapping>
 
 </web-app>

@@ -8,14 +8,14 @@
 <h2>Welcom to the app!</h2>
 <h4>Authorize or register to continue:</h4>
 
-<form action="FrontController" method="post">
+<form action="controller" method="post">
 	<input type="hidden" name="command" value="go_to_logination_page" />
 	<input type="submit" value="Logination" />
 </form>
 
 <br/>
 
-<form action="FrontController" method="post">
+<form action="controller" method="post">
 	<input type="hidden" name="command" value="go_to_registration_page" />
 	<input type="submit" value="Registration" />
 </form>

@@ -22,5 +22,4 @@ public class CommandProvider {
 		Command command = commands.get(commandName);
 		return command;
 	}
-
 }
