@@ -18,5 +18,4 @@ public class DoLogination implements Command {
 		response.getWriter().print("Login: "+login+"\n");
 		response.getWriter().print("Password: "+password+"\n");
 	}
-	
 }
