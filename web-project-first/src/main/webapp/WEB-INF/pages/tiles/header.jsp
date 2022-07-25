@@ -26,7 +26,7 @@
 						</font> 
 					</c:if>
 					
-					<a href="">Registration</a> <input type="submit" value="Sign In" /><br />
+					<a href="WEB-INF/jsp/registration.jsp">Registration</a> <input type="submit" value="Sign In" /><br />
 				</form>
 			</div>
 

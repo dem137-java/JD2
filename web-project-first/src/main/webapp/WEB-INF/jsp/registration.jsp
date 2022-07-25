@@ -12,11 +12,13 @@
 
 <h3>Pls enter required info below:</h3>
 
-<form action="Registration" method="post">
-		<input type="hidden" name="command1" value="register" /> Name: <br />
+<form action="do_registration" method="post">
+		<input type="hidden" name="command" value="register" /> Name: <br />
 		<input type="text" name="name" value="" /><br /> Surname: <br />
 		<input type="text" name="surname" value="" /><br /> Date of birth: <br />
-		<input type="date" name="birthDate" value="" /><br /> Preferable contacts: <br />
+		<input type="date" name="birthDate" value="" /><br /> E-mail: <br />
+		<input type="text" name="e-mail" value="" /><br /> Mobile No: <br />
+		<input type="text" name="mobileNo" value="" /><br /> Preferable contacts: <br />
 		<input type="checkbox" name="contact" value="e-mail"/>e-mail<br />
 		<input type="checkbox" name="contact" value="cell phone"/>cell phone<br />
 		<input type="checkbox" name="contact" value="office phone"/>office phone<br />Enter your login: <br />
