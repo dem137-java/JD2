@@ -13,5 +13,4 @@ public class GoToRegistrationPageCommand implements Command {
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.getRequestDispatcher("WEB-INF/jsp/registration.jsp").forward(request, response);
 	}
-
 }

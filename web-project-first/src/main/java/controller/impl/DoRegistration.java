@@ -17,7 +17,7 @@ public class DoRegistration implements Command {
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String name = request.getParameter("name");
 		String surname = request.getParameter("surname");
-		String dateOfBirth = request.getParameter("birthDate");
+		String birthDate = request.getParameter("birthDate");
 		String eMail = request.getParameter("e-mail"); 
 		String mobileNo = request.getParameter("mobileNo");
 		String [] contacts = request.getParameterValues("contact");
